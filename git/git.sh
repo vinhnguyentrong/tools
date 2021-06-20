@@ -24,3 +24,9 @@ git push origin develop
 
 # Git update submodule (thirparty)
 git submodule update --init --recursive
+# Add submodule
+git submodule add https://github.com/foonathan/memory.git
+git submodule add https://github.com/google/googletest.git
+git submodule add https://github.com/eProsima/Fast-CDR.git
+git submodule add https://github.com/leethomason/tinyxml2.git
+git submodule add https://github.com/chriskohlhoff/asio.git
