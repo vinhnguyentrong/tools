@@ -1,0 +1,26 @@
+// setting
+
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_size": 12,
+	"rulers": 100,
+	"tab_size": 3,
+	"theme": "Adaptive.sublime-theme"
+}
+
+
+// sublime key-binding
+[
+	{"keys": ["ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false}}
+	, {"keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true}}
+	, {"keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true}}
+	, {"keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false}}
+
+	, {"keys": ["ctrl+e"], "command": "move", "args": {"by": "words", "forward": true, "extend": false}}
+	, {"keys": ["ctrl+b"], "command": "move", "args": {"by": "words", "forward": false, "extend": false}}
+
+	, {"keys": ["ctrl+i"], "command": "move_to", "args": {"to": "bol"}}
+	, {"keys": ["ctrl+a"], "command": "move_to", "args": {"to": "eol"}}
+
+	, {"keys": ["ctrl+shift+a"], "command": "select_all"}
+]
